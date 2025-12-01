@@ -46,8 +46,3 @@ O objetivo é simular uma plataforma simples de catálogo e avaliações de film
 - **LocalStorage**
 - **Git & GitHub**
 - **GitHub Desktop / VS Code**
-
----
-
-## 📁 Estrutura do projeto
-
