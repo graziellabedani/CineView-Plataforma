@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CineReview - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">CineReview</div>
+    <nav class="main-nav">
+      <a href="index.html">Início</a>
+      <a href="filmes.html">Filmes</a>
+      <a href="review.html">Reviews</a>
+    </nav>
+    <div class="search">🔍</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Descubra os Melhores <span>Filmes do Momento</span></h1>
+        <p>Reviews honestos, avaliações da comunidade e recomendações personalizadas para você</p>
+        <div class="hero-actions">
+          <a href="filmes.html"><button class="btn primary">Explorar Filmes</button></a>
+          <a href="review.html"><button class="btn">Ver Reviews</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Filmes Premiados</h2>
+          <a class="ver-todos" href="#">Ver Todos →</a>
+        </div>
+
+        <div id="movie-grid" class="movie-grid">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> CineReview — Projeto de exemplo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

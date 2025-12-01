@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineReview - Reviews</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo">CineReview</div>
+        <nav class="main-nav">
+            <a href="index.html">Início</a>
+            <a href="filmes.html">Filmes</a>
+            <a href="review.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main class="reviews-container">
+
+        <h2>Reviews dos Usuários</h2>
+        <div class="review-box">
+            <h3>Escreva seu Review</h3>
+            <textarea id="reviewText" placeholder="Digite sua opinião sobre um filme..."></textarea>
+            <button onclick="addReview()">Enviar Review</button>
+        </div>
+
+        <h3>Últimos Reviews</h3>
+        <div class="carousel-wrapper">
+            <div id="reviewList" class="carousel"></div>
+        </div>
+
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> CineReview — Projeto de exemplo</p>
+    </footer>
+
+    <script src="review.js"></script>
+
+</body>
+
+</html>
